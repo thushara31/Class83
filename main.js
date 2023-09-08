@@ -24,8 +24,8 @@ var last_position_of_x, last_position_of_y;
   color = document.getElementById("color").value;
   width_of_line = document.getElementById("width").value;
 
-  last_position_of_mouse_x = e.touches[0].clientX - canvas.offsetLeft;
-  last_position_of_mouse_y = e.touches[0].clientY - canvas.offsetTop;
+  last_position_of_x = e.touches[0].clientX - canvas.offsetLeft;
+  last_position_of_y = e.touches[0].clientY - canvas.offsetTop;
     }
 
     canvas.addEventListener("mousemove", my_mousemove);
